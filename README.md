@@ -7,21 +7,23 @@ CheckPoint Task
  Get:
  
  "/AllEmployees"
+ 
 get all Employees from sql
 
 
-"get_employee_with_email/{email}"
+"/get_employee_with_email/{email}"
+
 get employee with email equal to the email param
 
 Post:
 
-"add_employee"
+"/add_employee"
 
 add employee to sql 
 
 Put:
 
-"update"
+"/update"
 
 update exist emplyoee"
 
