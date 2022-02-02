@@ -6,30 +6,30 @@ CheckPoint Task
  
  Get:
  
- "/AllEmployees"
+ "http://localhost:8090/AllEmployees"
  
 get all Employees from sql
 
 
-"/get_employee_with_email/{email}"
+"http://localhost:8090/get_employee_with_email/{email}"
 
 get employee with email equal to the email param
 
 Post:
 
-"/add_employee"
+"http://localhost:8090/add_employee"
 
 add employee to sql 
 
 Put:
 
-"/update"
+"http://localhost:8090/update"
 
 update exist emplyoee"
 
 Delete
 
-"/delete/{id}"
+"http://localhost:8090/delete/{id}"
 
 delete employee with id equal to id param
 
