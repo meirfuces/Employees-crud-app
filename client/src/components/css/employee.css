@@ -1,0 +1,22 @@
+
+.employees-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .employee-item {
+    margin: 1rem 0;
+    background: #7ea9e0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.26);
+    color: white;
+    padding: 0.5rem 0.5rem;
+    width: 350px;
+    height: 170px;
+    text-align: center;
+  }
+  .center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
